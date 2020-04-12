@@ -1,0 +1,39 @@
+-- Lab 5 DML Statements
+
+-- Populate the STUDENT table
+   insert into STUDENT (StudentNumber, StudentName) VALUES (100, 'Student One');
+   insert into STUDENT (StudentNumber, StudentName) VALUES (200, 'Student Two');
+   insert into STUDENT (StudentNumber, StudentName) VALUES (300, 'Student Three');
+   insert into STUDENT (StudentNumber, StudentName) VALUES (400, 'Student Four');
+   insert into STUDENT (StudentNumber, StudentName) VALUES (500, 'Student Five');
+   insert into STUDENT (StudentNumber, StudentName) VALUES (600, 'Student Six');
+   insert into STUDENT (StudentNumber, StudentName) VALUES (700, 'Student Seven');
+   insert into STUDENT (StudentNumber, StudentName) VALUES (800, 'Student Eight');
+   insert into STUDENT (StudentNumber, StudentName) VALUES (900, 'Student Nine');
+
+-- Populate the COURSE table
+   insert into COURSE (CourseCode, CourseName) VALUES ('CST8215', 'Database Design');
+   insert into COURSE (CourseCode, CourseName) VALUES ('CST8216', 'Database Design2');
+   insert into COURSE (CourseCode, CourseName) VALUES ('CST8217', 'Database Design3');
+   insert into COURSE (CourseCode, CourseName) VALUES ('CST8218', 'Database Design4');
+   insert into COURSE (CourseCode, CourseName) VALUES ('CST8219', 'Database Design5');
+   insert into COURSE (CourseCode, CourseName) VALUES ('CST8220', 'Database Design6');
+   insert into COURSE (CourseCode, CourseName) VALUES ('CST8221', 'Database Design7');
+   insert into COURSE (CourseCode, CourseName) VALUES ('CST8222', 'Database Design8');
+   
+-- Populate the LAB table
+   insert into LAB (LabSection, LabRoom, LabDate) VALUES (363,'A210','2019-09-10 17:30:00');
+   insert into LAB (LabSection, LabRoom, LabDate) VALUES (362,'B384','2019-09-11 16:00:00');
+   insert into LAB (LabSection, LabRoom, LabDate) VALUES (361,'P213A','2019-09-12 14:00:00');
+  
+-- Populate the INSTRUCTOR table
+   insert into INSTRUCTOR (EmployeeNumber, EmployeeName) VALUES (115, 'Cheryl Potter');
+   insert into INSTRUCTOR (EmployeeNumber, EmployeeName) VALUES (116, 'Saif Terai');
+   insert into INSTRUCTOR (EmployeeNumber, EmployeeName) VALUES (117, 'Dan Gauldreault');
+   insert into INSTRUCTOR (EmployeeNumber, EmployeeName) VALUES (118, 'Angela Peterson');
+   
+   
+   
+
+
+
